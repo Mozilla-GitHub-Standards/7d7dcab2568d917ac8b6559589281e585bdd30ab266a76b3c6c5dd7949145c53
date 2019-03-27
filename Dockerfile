@@ -2,7 +2,7 @@
 # Based on https://blog.hasura.io/an-exhaustive-guide-to-writing-dockerfiles-for-node-js-web-apps-bbee6bd2f3c4
 
 # Base node image
-FROM node:carbon@sha256:89171382ea2e08a7ca84f653cd37e30e47b9c305baaee272899e25c912172f26 AS base
+FROM node:carbon@sha256:918f0be3932f555cd2645ca828b9c231a2dab10d9cf2dbb58896411207bbe52f AS base
 WORKDIR /app
 
 # Install dependencies
